@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Port+Lligat+Slab&display=swap");
+li {
+  display: flex;
+  /* align-items: center; */
+  padding: 4px 6px;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 1.125rem /* 18px */;
+  font-weight: 500;
+  line-height: 1.75rem /* 28px */;
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+}
+
+label{
+  display: block;
+}
+
+.quizContainer {
+  font-family: "Port Lligat Slab", serif;
+  letter-spacing: 0.09rem;
+  box-shadow: 0px 7px 14px goldenrod;
+}
+
+.prevNext {
+  width: 100%;
+}
+
+#btnNext,
+.prevNext {
+  margin: 0px 20px;
+  padding: 6px;
+  margin-bottom: 10px;
+  color: white;
+  font-weight: bolder;
+  font-size: 16px;
+  border: 2px solid black;
+  border-radius: 3px;
+  background-color: black;
+  letter-spacing: 0.2rem;
+  transition: all 0.5s ease-out;
+}
+#btnNext:hover {
+  border: 2px solid goldenrod;
+  color: goldenrod;
+  background-color: white;
+}
+
+#btnNext:disabled {
+  background-color: white;
+  border-color: gray;
+  color: gray;
+}

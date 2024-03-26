@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=El+Messiri:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.inputFeild {
+  position: relative;
+  width: 330px;
+}
+
+.in {
+  width: 100%;
+  padding: 8px 8px 5px 2px;
+  outline: none;
+  font-size: 17px;
+}
+.lab {
+  position: absolute;
+  left: 0;
+  top: 11px;
+  transition: 0.5s;
+  font-size: 16px;
+  letter-spacing: 0.1rem;
+  background-color: #fefefe;
+}
+.inputFeild input:valid ~ .lab,
+.inputFeild input:focus ~ .lab {
+  transform: translateY(-20px);
+  font-size: 15px;
+  color: goldenrod;
+  letter-spacing: 0.1rem;
+}
+.inputFeild .in:valid,
+.inputFeild .in:focus {
+  border-bottom: 2px solid goldenrod;
+}
+
+/* .signBtn:disabled {
+  color: white;
+} */
+
+/* #box_1,
+#label_username,
+#label_email,
+.main,
+#label_pass,
+.inputFeild {
+  font-family: "El Messiri", sans-serif;
+} */
+
+/* #loginBtn {
+  letter-spacing: 0.1rem;
+} */
+
+
+
+/* new page SIGNIN  */
+
+.signin {
+  height: 70%;
+  position: absolute;
+  right: none;
+  /* left: 0; */
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.signinBTN button {
+  margin: 4px;
+  padding: 8px;
+  width: 330px;
+  border-radius: 3px;
+  font-size: 17px;
+}
+
+#googleBTN {
+  align-items: center;
+  background-color: #fff;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  color: #000;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #000;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: -.8px;
+  line-height: 24px;
+  min-width: 140px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+#googleBTN:focus {
+  color: #171e29;
+}
+
+#googleBTN:hover {
+  border-color: goldenrod;
+  color: goldenrod;
+  fill: goldenrod;
+}
+
+#googleBTN:active {
+  border-color: goldenrod;
+  color: goldenrod;
+  fill: goldenrod;
+}
+
+@media (min-width: 768px) {
+  #googleBTN {
+    min-width: 170px;
+  }
+}
+
+
+
+.signinHeading h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.signinHeading h3 {
+  margin-left: 5px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+h1 a{
+  color: goldenrod;
+  font-weight: bolder;
+  text-decoration: underline;
+}h1 a:hover{
+  color: gold;
+}
+
+/* new page login */
+
+.login{
+  height: 70%;
+  position: absolute;
+  left: none;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.loginBTN button {
+  margin: 4px;
+  padding: 6px;
+  width: 330px;
+  border-radius: 3px;
+}
+
+/* #googleBTN {
+  border: 2px solid black;
+} */
+
+#createBTN {
+  color: white;
+  font-weight: bolder;
+  border: 2px solid black;
+  background-color: black;
+  letter-spacing: 0.1rem;
+  transition: all 0.5s ease-out;
+}
+#createBTN:hover {
+  border: 2px solid goldenrod;
+  color: goldenrod;
+  background-color: white;
+}
+
+#createBTN:disabled{  
+  background-color: white;
+  border-color: gray;
+  color: gray;
+}
+
+
+.loginHeading h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.loginHeading h3 {
+  margin-left: 2px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+h1 a{
+  color: goldenrod;
+  font-weight: bolder;
+  text-decoration: underline;
+}h1 a:hover{
+  color: gold;
+}
+.forget{
+  color: goldenrod;
+  font-weight: 600;
+}
+.forget:hover{
+  color: gold;
+  text-decoration: underline;
+}
